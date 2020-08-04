@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    box-sizing: border-box;
+    background-color: white;
+    height: 1080px;
+    margin: 5px;
+    text-align: center;
+
+}
+.españa{
+    width: 35%;
+    height: 300px;
+    display: inline-block;
+    margin: 30px;
+
+}
+.bandera_españa {
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: inline-block;
+    width: 100%;
+    background-color: red;
+    height: 300px;
+    z-index: -1;
+
+}
+
+.raya1_es {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+    box-sizing: border-box;
+    position: relative;
+    top: 25%;
+    z-index: 0;
+}
+
+.denmark{
+    width: 35%;
+    height: 300px;
+    display: inline-block;
+    margin: 30px;
+
+}
+.bandera_denmark {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    background-color: red;
+    height: 300px;
+    display: inline-block;
+
+    z-index: -1;
+}
+
+.raya1_d {
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+    left: 25%;
+    z-index: 0;
+}
+
+.raya2_d {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 60%;
+    z-index: 1;
+}
+.emiratos{
+    width: 35%;
+    height: 300px;
+    display: inline-block;
+    margin: 30px;
+
+}
+.bandera_emiratos {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    display: inline-block;
+    z-index: -1;
+}
+
+.raya1_em {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+.raya2_em {
+    width: 100%;
+    height: 32%;
+    background-color: green;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 100%;
+    z-index: 0;
+}
+.raya3_em {
+    width: 100%;
+    height: 32%;
+    background-color: black;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 64%;
+    z-index: 0;
+}
+.japon{
+    width: 35%;
+    height: 300px;
+    display: inline-block;
+    margin: 30px;
+   
+}
+.bandera_japon {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    display: inline-block;
+    
+    z-index: -1;
+}
+
+.circulo {
+    width: 35%;
+    height:52%;
+    background-color: red;
+    box-sizing: border-box;
+    position: relative;
+    top:25%;
+    left:32%;
+    z-index: 1;
+    border-radius: 100%;
+}
+p{
+    text-align: left;
+}
